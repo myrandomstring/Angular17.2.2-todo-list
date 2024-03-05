@@ -1,0 +1,14 @@
+<div *ngFor="let todo of this.getTodos() ; let i = index">
+<button routerLink="/edit/{{i}}">{{todo.title}}</button>
+<button (click)="deletetodo($event,i)">delete</button>
+<br>
+</div>
+
+<br>
+
+<form>
+    <input type="text" name="todo" placeholder="enter todo item title" [(ngModel)]="todo">
+    <br>
+    <br>
+    <button (click)="addtodo($event)">add todo</button>
+</form>

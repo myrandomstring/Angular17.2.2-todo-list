@@ -1,0 +1,10 @@
+<p>Add a summary for this todo item</p>
+<p>{{this.currentTitle}}</p>
+
+<input type="text" placeholder="todo item description" [(ngModel)]="currentSummary" (blur)="setSummary($event)">
+
+<br>
+<br>
+
+<button routerLink='/'>view todo list</button>
+
