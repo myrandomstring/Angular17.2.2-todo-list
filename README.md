@@ -1,4 +1,7 @@
 # Todo
+View deployed site @
+https://angular.discoursive.org
+
 A very basic todo list in Angular 17
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
